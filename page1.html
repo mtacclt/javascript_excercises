@@ -7,46 +7,47 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action="page2.html" method="GET">
         <div class="wrapper">
             <div>  
                 <label for="firstname">firstname:</label>
-                <input type="text" id="firstname" value="firstnametest">
+                <input name="firstname" type="text" id="firstname" value="firstnametest">
             </div>
 
             <div class="input-group">
                 <label for="lastname">lastname:</label>
-                <input type="text" id="lastname" value="lastnametest">
+                <input name="lastname" type="text" id="lastname" value="lastnametest">
             </div>
 
             <div class="input-group">
                 <label for="email">email:</label>
-                <input type="text" id="email" value="emailtest">
+                <input name="email" type="text" id="email" value="emailtest">
             </div>
 
             <div class="input-group">
                 <label for="dob">dob:</label>
-                <input type="text" id="dob" value="dobtest">
+                <input name="dob" type="text" id="dob" value="dobtest">
             </div>
 
             <div class="input-group">
                 <label for="age">age:</label>
-                <input type="text" id="age" value="agetest">
+                <input name="age"type="text" id="age" value="agetest">
             </div>
 
             <div class="input-group">
                 <label for="designation">designation:</label>
-                <input type="text" id="designation" value="designationtest">
+                <input name="designation"type="text" id="designation" value="designationtest">
             </div>
 
             <div class="input-group">
                 <label for="address">address:</label>
-                <input type="text" id="address" value="addresstest">
+                <input name="address"type="text" id="address" value="addresstest">
             </div>
-            <input type="submit" id="submit">
+            <input type="submit" value="Submit" />
         </div>
     </form>
-        <button id="ex12button">First and Last Names</button>
+        <button id="nextPageButton">to JSON</button>
+        <button id="ex12button" >First and Last Names</button>
         <label id="nameresult">Name result is:</label>
     <script src="script1.js"></script>
 </body>
